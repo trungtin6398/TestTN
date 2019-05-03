@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/click">
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:layout_margin="5dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/tvten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên"
+        android:layout_margin="5dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/tvngay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày"
+        android:layout_margin="5dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/tvgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá"
+        android:layout_margin="5dp"
+        android:textColor="#000"/>
+
+</LinearLayout>
